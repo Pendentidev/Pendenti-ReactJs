@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Pendenti-ReactJs/static/css/main.756af292.css",
+    "main.js": "/Pendenti-ReactJs/static/js/main.9bd4cc5e.js",
+    "static/js/787.71a31c2e.chunk.js": "/Pendenti-ReactJs/static/js/787.71a31c2e.chunk.js",
+    "static/media/cart.svg": "/Pendenti-ReactJs/static/media/cart.3c10e64f378945d9aa66bba1300d1e00.svg",
+    "index.html": "/Pendenti-ReactJs/index.html",
+    "main.756af292.css.map": "/Pendenti-ReactJs/static/css/main.756af292.css.map",
+    "main.9bd4cc5e.js.map": "/Pendenti-ReactJs/static/js/main.9bd4cc5e.js.map",
+    "787.71a31c2e.chunk.js.map": "/Pendenti-ReactJs/static/js/787.71a31c2e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.756af292.css",
+    "static/js/main.9bd4cc5e.js"
+  ]
+}

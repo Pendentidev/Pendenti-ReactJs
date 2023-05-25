@@ -2,21 +2,23 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import CartWidget from '../CartWidget/CartWidget';
+import { Link } from 'react-router-dom';
 
 function NavBar() {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar sticky="top" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Kirei Manga</Navbar.Brand>
+          <Navbar.Brand as={Link} to ="/" >Kirei Manga</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Mangas</Nav.Link>
-            <Nav.Link href="#pricing">Figuras</Nav.Link>
-            <Nav.Link ><CartWidget /></Nav.Link>
+            <Nav.Link as={Link} to ="/">Home</Nav.Link>
+            <Nav.Link as={Link} to ="/category/mangas">Mangas</Nav.Link>
+            <Nav.Link as={Link} to ="/category/figuras">Figuras</Nav.Link>
+            <Nav.Link as={Link} to ="/cart"><CartWidget /></Nav.Link>
           </Nav>
         </Container>
       </Navbar>
+
     </>
   );
 }
